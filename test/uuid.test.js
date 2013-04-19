@@ -1,6 +1,6 @@
 (function() {
 
-    var uuid = require('../uuid')()
+    var uuid = require('../').UUID()
     , _ = require('underscore')
     , expect = require('expect.js');
     

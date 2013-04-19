@@ -1,6 +1,6 @@
 (function() {
 
-    var deep_clone = require('../deep_clone')
+    var deep_clone = require('../').deep_clone
     , _ = require('underscore')
     , expect = require('expect.js');
     
