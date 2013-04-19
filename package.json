@@ -1,0 +1,14 @@
+{
+    "name": "util",
+    "description": "Utilities",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "underscore": "1.4.x"
+    },
+    "devDependencies": {
+        "mocha": "1.8.x",
+        "expect.js": "0.2.x",
+        "supertest": "0.5.x"
+    }
+}
