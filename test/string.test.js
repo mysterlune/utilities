@@ -89,6 +89,18 @@
         
             done();
         });
+        
+        it('CamelClassify', function(done) {
+            
+            var camelclassified = string.camelclassify('BOO_HISS');
+            expect(camelclassified).to.be.equal('booHiss');
+            
+            camelclassified = string.camelclassify('SOME-where_over-the rAINBOW');
+            expect(camelclassified).to.be.equal('someWhereOverTheRainbow');
+            
+            done();
+            
+        })
     });
 
 }).call(this);
